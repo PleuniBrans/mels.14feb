@@ -15,7 +15,7 @@ const introLines = [
   { text: "", cls: "line" },
   { text: "combineer ik bij deze cheesy en nerdy", cls: "comment" },
   { text: "", cls: "line" },
-  { text: "Yaaaaay! wanneer ik je weer ga zien:", cls: "comment" },
+  { text: "wanneer ik je weer ga zien:", cls: "comment" },
 ];
 
 const cursor = document.createElement("span");
