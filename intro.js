@@ -73,15 +73,15 @@ function typeNextChar() {
 
   const ch = text[charIndex - 1];
   const delay =
-  //dit aanzetten 
-    // ch === "." ? 650 :
-    // ch === "," ? 350 :
-    // ch === " " ? 110 : 70;
+
+    ch === "." ? 650 :
+    ch === "," ? 350 :
+    ch === " " ? 110 : 70;
 
     //yalla yalla
-    ch === "." ? .1 :
-    ch === "," ? .1 :
-    ch === " " ? .1 : .1;
+    // ch === "." ? .1 :
+    // ch === "," ? .1 :
+    // ch === " " ? .1 : .1;
 
   setTimeout(typeNextChar, delay);
 }
